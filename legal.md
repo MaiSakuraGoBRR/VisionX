@@ -1,7 +1,10 @@
-Do not copy. Plagiarism is illegal thing and will not be tolorated. Action will be taken.
+This is a roblox script / hub for in-game. This is not a hack or an exploit.
+
+(INGORE TOP IT IS AN EXPLOIT)
 
 # IMPORTANT
 
+Do not copy. Plagiarism is illegal thing and will not be tolorated. Action will be taken.
 If you are viewing the source code, hi there. Please do not copy our code (even though most of it is obfuscated) because we worked out ahh off. 
 Being a theif is very skiddy. 
 
