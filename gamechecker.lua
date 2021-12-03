@@ -24,7 +24,7 @@ if placeidv == gamesv["Bitcoin Miner"] then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/MaiSakuraGoBRR/VisionX/main/BitcoinMiner.lua", true))()
 end
 
-if not for i, v in pairs(gamesv) then
+if not placeidv == for i, v in pairs(gamesv) then
 game.StarterGui:SetCore("SendNotification", {
  Title = "Vision X";
  Text = "This game is not supported!";
