@@ -25,7 +25,12 @@ if placeidv == gamesv["Bitcoin Miner"] then
 end
 
 if not for i, v in pairs(gamesv) then
-  
+game.StarterGui:SetCore("SendNotification", {
+ Title = "Vision X";
+ Text = "This game is not supported!";
+ Icon = "";
+ Duration = 5;
+});
 end
 
 --// END OF SCRIPT \\--
