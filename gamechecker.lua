@@ -9,3 +9,5 @@ local gamesv =
 if placeidv == gamesv["Bitcoin Miner"] then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/MaiSakuraGoBRR/VisionX/main/BitcoinMiner.lua", true))()
 end
+
+--\\ END OF SCRIPT 12/3/21 //-- 
