@@ -1,4 +1,11 @@
 --\\ START OF SCRIPT 12/2/21 //-- 
 
-local placeid = game.PlaceId
-local supportedgame1 = { 2629642516 } --\\ Bitcoin Miner Game //--
+local placeidv = game.PlaceId
+local gamesv = 
+{ 
+  ["Bitcoin Miner"] = 2629642516 
+} 
+
+if placeidv == gamesv["Bitcoin Miner"] then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MaiSakuraGoBRR/VisionX/main/BitcoinMiner.lua", true))()
+end
