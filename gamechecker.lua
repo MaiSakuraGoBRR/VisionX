@@ -1,4 +1,12 @@
---\\ START OF SCRIPT //-- 
+--[[
+
+Being a skid is not a good thing. Don't steal code, create code.
+
+\\---------------------------------------//
+||      Created By Reddy and Hashed      ||
+//---------------------------------------\\
+
+]]--
 
 local runservice = game:GetService("RunService")
 local players = game.Players
@@ -15,4 +23,4 @@ if placeidv == gamesv["Bitcoin Miner"] then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/MaiSakuraGoBRR/VisionX/main/BitcoinMiner.lua", true))()
 end
 
---\\ END OF SCRIPT //-- 
+--// END OF SCRIPT \\-- 
