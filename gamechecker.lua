@@ -19,22 +19,20 @@ local gamesv =
 { 
   ["Bitcoin Miner"] = 2629642516 
 } 
-local gamesa = 
-{ 
-  2629642516 
-} 
 
 if placeidv == gamesv["Bitcoin Miner"] then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/MaiSakuraGoBRR/VisionX/main/BitcoinMiner.lua", true))()
 end
 
-if not placeidv == for i, v in pairs(gamesa) then
+for i,v in ipairs(gamesv) do
+    if not placeidv == v then
 game.StarterGui:SetCore("SendNotification", {
  Title = "Vision X";
  Text = "This game is not supported!";
  Icon = "";
  Duration = 5;
 });
+    end
 end
 
 --// END OF SCRIPT \\--
